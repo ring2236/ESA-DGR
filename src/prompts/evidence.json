@@ -1,0 +1,5 @@
+{
+    "default":"You are a helpful assistant.",
+    "strict_test":"Read the question and the provided evidence, and assess the degree to which the current evidence supports answering the question. A score of 1 indicates full support, while a score of 0 indicates no support at all. The level of support should be expressed as a value between 0 and 1. If the score is not 1, provide the missing dimensions of evidence as a corresponding query question; if the score is 1, do not provide any additional information. Please follow the format below: \n{\"score\": , \"missing_evidence\": \"\"}.",
+    "loose_test":"Read the question and the provided evidence carefully. Output only a numerical value between 0 and 1 (inclusive), where 1 indicates full support for answering the question based on the evidence, and 0 indicates no support at all. Do not include any additional text, explanations, or characters—only the numerical score is allowed."
+}
